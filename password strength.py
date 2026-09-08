@@ -34,6 +34,6 @@ def pass_strength(password):
         print('\nSuggestions:')
         for i in feedback:
             print('-', i)
-print('here ypu need to enter your password to check strength of the password:')
+print('here you need to enter your password to check strength of the password:')
 password=input('enter your password:')
 pass_strength(password)
